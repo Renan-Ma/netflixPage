@@ -1,0 +1,23 @@
+/* declarando variáveis das cores do site */
+:root {
+  --vermelho: #E50914;
+  --preta: #2b2b2b;
+}
+
+  /* Geral */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--preta);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.container{
+  margin: 10px 15px;
+}
